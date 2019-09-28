@@ -1,0 +1,120 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Wed Dec 12 12:55:52 2018
+| Host         : DESKTOP-I2D2IPS running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file CPU_control_sets_placed.rpt
+| Design       : CPU
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    52 |
+| Unused register locations in slices containing registers |   276 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      2 |           40 |
+|      6 |            2 |
+|      8 |            1 |
+|     12 |            1 |
+|    16+ |            8 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              44 |            7 |
+| No           | No                    | Yes                    |             292 |           83 |
+| No           | Yes                   | No                     |              98 |           33 |
+| Yes          | No                    | No                     |               2 |            1 |
+| Yes          | No                    | Yes                    |            1196 |          190 |
+| Yes          | Yes                   | No                     |              12 |            1 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++--------------------------------+------------------------+-------------------------------+------------------+----------------+
+|          Clock Signal          |      Enable Signal     |        Set/Reset Signal       | Slice Load Count | Bel Load Count |
++--------------------------------+------------------------+-------------------------------+------------------+----------------+
+|  ID/REG_reg[5][0]_LDC_i_1_n_0  |                        | ID/REG_reg[5][0]_LDC_i_2_n_0  |                1 |              2 |
+|  ID/REG_reg[5][9]_LDC_i_1_n_0  |                        | ID/REG_reg[5][9]_LDC_i_2_n_0  |                1 |              2 |
+|  ID/REG_reg[5][12]_LDC_i_1_n_0 |                        | ID/REG_reg[5][12]_LDC_i_2_n_0 |                1 |              2 |
+|  ID/REG_reg[5][1]_LDC_i_1_n_0  |                        | ID/REG_reg[5][1]_LDC_i_2_n_0  |                1 |              2 |
+|  ID/REG_reg[5][3]_LDC_i_1_n_0  |                        | ID/REG_reg[5][3]_LDC_i_2_n_0  |                1 |              2 |
+|  ID/REG_reg[5][2]_LDC_i_1_n_0  |                        | ID/REG_reg[5][2]_LDC_i_2_n_0  |                1 |              2 |
+|  ID/REG_reg[5][11]_LDC_i_1_n_0 |                        | ID/REG_reg[5][11]_LDC_i_2_n_0 |                1 |              2 |
+|  ID/REG_reg[5][4]_LDC_i_1_n_0  |                        | ID/REG_reg[5][4]_LDC_i_2_n_0  |                1 |              2 |
+|  ID/REG_reg[5][5]_LDC_i_1_n_0  |                        | ID/REG_reg[5][5]_LDC_i_2_n_0  |                1 |              2 |
+|  ID/REG_reg[5][10]_LDC_i_1_n_0 |                        | ID/REG_reg[5][10]_LDC_i_2_n_0 |                1 |              2 |
+|  ID/REG_reg[5][6]_LDC_i_1_n_0  |                        | ID/REG_reg[5][6]_LDC_i_2_n_0  |                1 |              2 |
+|  ID/REG_reg[5][7]_LDC_i_1_n_0  |                        | ID/REG_reg[5][7]_LDC_i_2_n_0  |                1 |              2 |
+|  ID/REG_reg[5][8]_LDC_i_1_n_0  |                        | ID/REG_reg[5][8]_LDC_i_2_n_0  |                1 |              2 |
+|  clk_IBUF_BUFG                 | TOP//i__n_0            |                               |                1 |              2 |
+|  clk_IBUF_BUFG                 |                        | ID/REG_reg[5][0]_LDC_i_1_n_0  |                1 |              2 |
+|  clk_IBUF_BUFG                 |                        | ID/REG_reg[5][0]_LDC_i_2_n_0  |                1 |              2 |
+|  clk_IBUF_BUFG                 |                        | ID/REG_reg[5][2]_LDC_i_2_n_0  |                1 |              2 |
+|  clk_IBUF_BUFG                 |                        | ID/REG_reg[5][4]_LDC_i_2_n_0  |                1 |              2 |
+|  clk_IBUF_BUFG                 |                        | ID/REG_reg[5][12]_LDC_i_2_n_0 |                1 |              2 |
+|  clk_IBUF_BUFG                 |                        | ID/REG_reg[5][7]_LDC_i_2_n_0  |                1 |              2 |
+|  clk_IBUF_BUFG                 |                        | ID/REG_reg[5][9]_LDC_i_1_n_0  |                1 |              2 |
+|  clk_IBUF_BUFG                 |                        | ID/REG_reg[5][12]_LDC_i_1_n_0 |                1 |              2 |
+|  clk_IBUF_BUFG                 |                        | ID/REG_reg[5][1]_LDC_i_1_n_0  |                1 |              2 |
+|  clk_IBUF_BUFG                 |                        | ID/REG_reg[5][1]_LDC_i_2_n_0  |                1 |              2 |
+|  clk_IBUF_BUFG                 |                        | ID/REG_reg[5][3]_LDC_i_1_n_0  |                1 |              2 |
+|  clk_IBUF_BUFG                 |                        | ID/REG_reg[5][3]_LDC_i_2_n_0  |                1 |              2 |
+|  clk_IBUF_BUFG                 |                        | ID/REG_reg[5][2]_LDC_i_1_n_0  |                1 |              2 |
+|  clk_IBUF_BUFG                 |                        | ID/REG_reg[5][5]_LDC_i_2_n_0  |                1 |              2 |
+|  clk_IBUF_BUFG                 |                        | ID/REG_reg[5][6]_LDC_i_2_n_0  |                1 |              2 |
+|  clk_IBUF_BUFG                 |                        | ID/REG_reg[5][8]_LDC_i_2_n_0  |                1 |              2 |
+|  clk_IBUF_BUFG                 |                        | ID/REG_reg[5][11]_LDC_i_2_n_0 |                1 |              2 |
+|  clk_IBUF_BUFG                 |                        | ID/REG_reg[5][10]_LDC_i_2_n_0 |                1 |              2 |
+|  clk_IBUF_BUFG                 |                        | ID/REG_reg[5][11]_LDC_i_1_n_0 |                1 |              2 |
+|  clk_IBUF_BUFG                 |                        | ID/REG_reg[5][4]_LDC_i_1_n_0  |                1 |              2 |
+|  clk_IBUF_BUFG                 |                        | ID/REG_reg[5][5]_LDC_i_1_n_0  |                1 |              2 |
+|  clk_IBUF_BUFG                 |                        | ID/REG_reg[5][10]_LDC_i_1_n_0 |                1 |              2 |
+|  clk_IBUF_BUFG                 |                        | ID/REG_reg[5][6]_LDC_i_1_n_0  |                1 |              2 |
+|  clk_IBUF_BUFG                 |                        | ID/REG_reg[5][7]_LDC_i_1_n_0  |                1 |              2 |
+|  clk_IBUF_BUFG                 |                        | ID/REG_reg[5][8]_LDC_i_1_n_0  |                1 |              2 |
+|  clk_IBUF_BUFG                 |                        | ID/REG_reg[5][9]_LDC_i_2_n_0  |                1 |              2 |
+|  clk_IBUF_BUFG                 |                        | TOP/scan[2]_i_1_n_0           |                2 |              6 |
+|  clk_IBUF_BUFG                 |                        | TOP/state[2]                  |                2 |              6 |
+|  clk_IBUF_BUFG                 | IF/RD_reg[0][0]        | rst_IBUF                      |                2 |              8 |
+|  clk_IBUF_BUFG                 | TOP//i__n_0            | TOP/seg_data[6]_i_1_n_0       |                1 |             12 |
+|  clk_IBUF_BUFG                 | IF/p_0_in              | rst_IBUF                      |                3 |             20 |
+|  clk_IBUF_BUFG                 |                        | TOP/clear                     |                5 |             34 |
+|  clk_IBUF_BUFG                 | IF/IR[28]_i_1_n_0      | rst_IBUF                      |               10 |             42 |
+|  clk_IBUF_BUFG                 |                        |                               |                7 |             44 |
+|  clk_IBUF_BUFG                 | IF/E[0]                | rst_IBUF                      |                8 |             64 |
+|  clk_IBUF_BUFG                 | ID/ALUout_reg[31]_1[0] | rst_IBUF                      |               11 |             64 |
+|  clk_IBUF_BUFG                 |                        | rst_IBUF                      |               68 |            266 |
+|  clk_IBUF_BUFG                 | MEM/MW_RegWrite        | rst_IBUF                      |              156 |            998 |
++--------------------------------+------------------------+-------------------------------+------------------+----------------+
+
+

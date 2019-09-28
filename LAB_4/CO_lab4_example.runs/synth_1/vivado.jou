@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.3.1 (64-bit)
+# SW Build 2035080 on Fri Oct 20 14:20:01 MDT 2017
+# IP Build 2034413 on Fri Oct 20 15:56:25 MDT 2017
+# Start of session at: Mon Dec 18 13:26:12 2017
+# Process ID: 11928
+# Current directory: C:/Users/DUCK/Desktop/co_lab44444/CO_lab4_example/CO_lab4_example.runs/synth_1
+# Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+# Log file: C:/Users/DUCK/Desktop/co_lab44444/CO_lab4_example/CO_lab4_example.runs/synth_1/top.vds
+# Journal file: C:/Users/DUCK/Desktop/co_lab44444/CO_lab4_example/CO_lab4_example.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top.tcl -notrace

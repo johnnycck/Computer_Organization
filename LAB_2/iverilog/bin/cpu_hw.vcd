@@ -1,0 +1,404 @@
+$date
+	Sat Sep 16 15:03:52 2017
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module testbench $end
+$var reg 1 ! Clk $end
+$var reg 1 " Rst $end
+$var reg 32 # cycles [31:0] $end
+$var reg 32 $ i [31:0] $end
+$scope module cpu $end
+$var wire 32 % A [31:0] $end
+$var wire 3 & ALUctr [2:0] $end
+$var wire 32 ' B [31:0] $end
+$var wire 32 ( DX_JT [31:0] $end
+$var wire 5 ) DX_MD [4:0] $end
+$var wire 1 * DX_MemRead $end
+$var wire 1 + DX_MemWrite $end
+$var wire 1 , DX_MemtoReg $end
+$var wire 32 - DX_NPC [31:0] $end
+$var wire 32 . DX_PC [31:0] $end
+$var wire 5 / DX_RD [4:0] $end
+$var wire 1 0 DX_RegWrite $end
+$var wire 1 1 DX_branch $end
+$var wire 1 2 DX_jump $end
+$var wire 32 3 FD_IR [31:0] $end
+$var wire 32 4 FD_PC [31:0] $end
+$var wire 32 5 MDR [31:0] $end
+$var wire 32 6 MW_ALUout [31:0] $end
+$var wire 1 7 MW_MemtoReg $end
+$var wire 5 8 MW_RD [4:0] $end
+$var wire 1 9 MW_RegWrite $end
+$var wire 32 : XM_ALUout [31:0] $end
+$var wire 32 ; XM_BT [31:0] $end
+$var wire 5 < XM_MD [4:0] $end
+$var wire 1 = XM_MemRead $end
+$var wire 1 > XM_MemWrite $end
+$var wire 1 ? XM_MemtoReg $end
+$var wire 5 @ XM_RD [4:0] $end
+$var wire 1 A XM_RegWrite $end
+$var wire 1 B XM_branch $end
+$var wire 1 C clk $end
+$var wire 16 D imm [15:0] $end
+$var wire 1 E rst $end
+$scope module IF $end
+$var wire 1 B branch $end
+$var wire 32 F branch_addr [31:0] $end
+$var wire 1 C clk $end
+$var wire 1 2 jump $end
+$var wire 32 G jump_addr [31:0] $end
+$var wire 1 E rst $end
+$var reg 32 H IR [31:0] $end
+$var reg 32 I PC [31:0] $end
+$upscope $end
+$scope module ID $end
+$var wire 32 J IR [31:0] $end
+$var wire 32 K MDR [31:0] $end
+$var wire 32 L MW_ALUout [31:0] $end
+$var wire 1 7 MW_MemtoReg $end
+$var wire 5 M MW_RD [4:0] $end
+$var wire 1 9 MW_RegWrite $end
+$var wire 32 N PC [31:0] $end
+$var wire 1 C clk $end
+$var wire 1 E rst $end
+$var reg 32 O A [31:0] $end
+$var reg 3 P ALUctr [2:0] $end
+$var reg 32 Q B [31:0] $end
+$var reg 32 R DX_PC [31:0] $end
+$var reg 32 S JT [31:0] $end
+$var reg 5 T MD [4:0] $end
+$var reg 1 U MemRead $end
+$var reg 1 V MemWrite $end
+$var reg 1 W MemtoReg $end
+$var reg 32 X NPC [31:0] $end
+$var reg 5 Y RD [4:0] $end
+$var reg 1 Z RegWrite $end
+$var reg 1 [ branch $end
+$var reg 16 \ imm [15:0] $end
+$var reg 1 ] jump $end
+$upscope $end
+$scope module EXE $end
+$var wire 32 ^ A [31:0] $end
+$var wire 3 _ ALUctr [2:0] $end
+$var wire 32 ` B [31:0] $end
+$var wire 5 a DX_MD [4:0] $end
+$var wire 1 * DX_MemRead $end
+$var wire 1 + DX_MemWrite $end
+$var wire 1 , DX_MemtoReg $end
+$var wire 32 b DX_PC [31:0] $end
+$var wire 5 c DX_RD [4:0] $end
+$var wire 1 0 DX_RegWrite $end
+$var wire 1 1 DX_branch $end
+$var wire 1 d DX_jump $end
+$var wire 32 e JT [31:0] $end
+$var wire 32 f NPC [31:0] $end
+$var wire 1 C clk $end
+$var wire 16 g imm [15:0] $end
+$var wire 1 E rst $end
+$var reg 32 h ALUout [31:0] $end
+$var reg 32 i XM_BT [31:0] $end
+$var reg 5 j XM_MD [4:0] $end
+$var reg 1 k XM_MemRead $end
+$var reg 1 l XM_MemWrite $end
+$var reg 1 m XM_MemtoReg $end
+$var reg 5 n XM_RD [4:0] $end
+$var reg 1 o XM_RegWrite $end
+$var reg 1 p XM_branch $end
+$upscope $end
+$scope module MEM $end
+$var wire 32 q ALUout [31:0] $end
+$var wire 5 r XM_MD [4:0] $end
+$var wire 1 = XM_MemRead $end
+$var wire 1 > XM_MemWrite $end
+$var wire 1 ? XM_MemtoReg $end
+$var wire 5 s XM_RD [4:0] $end
+$var wire 1 A XM_RegWrite $end
+$var wire 1 C clk $end
+$var wire 1 E rst $end
+$var reg 32 t MDR [31:0] $end
+$var reg 32 u MW_ALUout [31:0] $end
+$var reg 1 v MW_MemtoReg $end
+$var reg 5 w MW_RD [4:0] $end
+$var reg 1 x MW_RegWrite $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0x
+b0 w
+0v
+b0 u
+b0 t
+b0 s
+b0 r
+b0 q
+0p
+0o
+b0 n
+0m
+0l
+0k
+b0 j
+b0 i
+b0 h
+b0 g
+b0 f
+bz e
+zd
+b0 c
+bz b
+b0 a
+b0 `
+b0 _
+b0 ^
+0]
+b0 \
+0[
+0Z
+b0 Y
+b0 X
+0W
+0V
+0U
+b0 T
+b0 S
+b0 R
+b0 Q
+b0 P
+b0 O
+bx N
+b0 M
+b0 L
+b0 K
+b0 J
+bx I
+b0 H
+b0 G
+b0 F
+1E
+b0 D
+1C
+0B
+0A
+b0 @
+0?
+0>
+0=
+b0 <
+b0 ;
+b0 :
+09
+b0 8
+07
+b0 6
+b0 5
+bx 4
+b0 3
+02
+01
+00
+b0 /
+b0 .
+b0 -
+0,
+0+
+0*
+b0 )
+b0 (
+b0 '
+b0 &
+b0 %
+b100000 $
+b0 #
+1"
+1!
+$end
+#10000
+0!
+0C
+#12000
+0"
+0E
+#20000
+b1 #
+1Z
+10
+bx X
+bx -
+bx f
+bx R
+bx .
+bx H
+bx 3
+bx J
+1!
+1C
+#30000
+0!
+0C
+#40000
+b10 #
+bx \
+bx D
+bx g
+bx T
+bx )
+bx a
+bx O
+bx %
+bx ^
+1o
+1A
+1!
+1C
+#50000
+0!
+0C
+#60000
+b11 #
+1x
+19
+bx h
+bx :
+bx q
+bx j
+bx <
+bx r
+1!
+1C
+#70000
+0!
+0C
+#80000
+bx u
+bx 6
+bx L
+b100 #
+1!
+1C
+#90000
+0!
+0C
+#100000
+b101 #
+1!
+1C
+#110000
+0!
+0C
+#120000
+b110 #
+1!
+1C
+#130000
+0!
+0C
+#140000
+b111 #
+1!
+1C
+#150000
+0!
+0C
+#160000
+b1000 #
+1!
+1C
+#170000
+0!
+0C
+#180000
+b1001 #
+1!
+1C
+#190000
+0!
+0C
+#200000
+b1010 #
+1!
+1C
+#210000
+0!
+0C
+#220000
+b1011 #
+1!
+1C
+#230000
+0!
+0C
+#240000
+b1100 #
+1!
+1C
+#250000
+0!
+0C
+#260000
+b1101 #
+1!
+1C
+#270000
+0!
+0C
+#280000
+b1110 #
+1!
+1C
+#290000
+0!
+0C
+#300000
+b1111 #
+1!
+1C
+#310000
+0!
+0C
+#320000
+b10000 #
+1!
+1C
+#330000
+0!
+0C
+#340000
+b10001 #
+1!
+1C
+#350000
+0!
+0C
+#360000
+b10010 #
+1!
+1C
+#370000
+0!
+0C
+#380000
+b10011 #
+1!
+1C
+#390000
+0!
+0C
+#400000
+b10100 #
+1!
+1C
+#410000
+0!
+0C
+#420000
+b10101 #
+1!
+1C

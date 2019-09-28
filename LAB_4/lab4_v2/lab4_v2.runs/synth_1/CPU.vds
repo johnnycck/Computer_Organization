@@ -1,0 +1,864 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Dec 12 12:53:59 2018
+# Process ID: 12560
+# Current directory: C:/Users/user/Desktop/lab4_v2/lab4_v2.runs/synth_1
+# Command line: vivado.exe -log CPU.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source CPU.tcl
+# Log file: C:/Users/user/Desktop/lab4_v2/lab4_v2.runs/synth_1/CPU.vds
+# Journal file: C:/Users/user/Desktop/lab4_v2/lab4_v2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source CPU.tcl -notrace
+Command: synth_design -top CPU -part xc7a100tcsg324-3
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 8736 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 410.301 ; gain = 97.055
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'CPU' [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/CPU.v:2]
+INFO: [Synth 8-6157] synthesizing module 'INSTRUCTION_FETCH' [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:2]
+WARNING: [Synth 8-3848] Net instruction[255] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[254] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[253] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[252] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[251] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[250] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[249] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[248] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[247] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[246] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[245] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[244] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[243] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[242] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[241] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[240] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[239] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[238] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[237] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[236] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[235] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[234] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[233] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[232] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[231] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[230] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[229] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[228] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[227] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[226] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[225] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[224] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[223] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[222] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[221] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[220] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[219] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[218] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[217] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[216] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[215] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[214] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[213] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[212] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[211] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[210] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[209] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[208] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[207] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[206] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[205] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[204] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[203] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[202] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[201] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[200] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[199] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[198] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[197] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[196] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[195] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[194] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[193] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[192] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[191] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[190] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[189] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[188] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[187] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[186] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[185] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[184] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[183] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[182] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[181] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[180] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[179] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[178] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[177] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[176] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[175] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[174] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[173] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[172] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[171] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[170] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[169] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[168] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[167] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[166] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[165] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[164] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[163] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[162] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[161] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[160] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[159] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[158] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[157] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+WARNING: [Synth 8-3848] Net instruction[156] in module/entity INSTRUCTION_FETCH does not have driver. [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:20]
+INFO: [Common 17-14] Message 'Synth 8-3848' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-6155] done synthesizing module 'INSTRUCTION_FETCH' (1#1) [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_FETCH.v:2]
+INFO: [Synth 8-6157] synthesizing module 'INSTRUCTION_DECODE' [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_DECODE.v:2]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_DECODE.v:128]
+WARNING: [Synth 8-5788] Register REG_reg[5] in module INSTRUCTION_DECODE is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_DECODE.v:62]
+WARNING: [Synth 8-5788] Register REG_reg[16] in module INSTRUCTION_DECODE is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_DECODE.v:62]
+WARNING: [Synth 8-5788] Register REG_reg[17] in module INSTRUCTION_DECODE is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_DECODE.v:62]
+WARNING: [Synth 8-5788] Register REG_reg[18] in module INSTRUCTION_DECODE is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_DECODE.v:62]
+WARNING: [Synth 8-5788] Register REG_reg[19] in module INSTRUCTION_DECODE is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_DECODE.v:62]
+WARNING: [Synth 8-5788] Register REG_reg[20] in module INSTRUCTION_DECODE is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_DECODE.v:62]
+WARNING: [Synth 8-5788] Register REG_reg[21] in module INSTRUCTION_DECODE is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_DECODE.v:62]
+WARNING: [Synth 8-5788] Register REG_reg[22] in module INSTRUCTION_DECODE is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_DECODE.v:62]
+WARNING: [Synth 8-5788] Register REG_reg[23] in module INSTRUCTION_DECODE is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_DECODE.v:62]
+WARNING: [Synth 8-5788] Register REG_reg[24] in module INSTRUCTION_DECODE is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_DECODE.v:62]
+WARNING: [Synth 8-5788] Register REG_reg[25] in module INSTRUCTION_DECODE is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_DECODE.v:62]
+WARNING: [Synth 8-5788] Register REG_reg[26] in module INSTRUCTION_DECODE is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_DECODE.v:62]
+WARNING: [Synth 8-5788] Register REG_reg[27] in module INSTRUCTION_DECODE is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_DECODE.v:62]
+WARNING: [Synth 8-5788] Register REG_reg[28] in module INSTRUCTION_DECODE is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_DECODE.v:62]
+WARNING: [Synth 8-5788] Register REG_reg[29] in module INSTRUCTION_DECODE is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_DECODE.v:62]
+WARNING: [Synth 8-5788] Register REG_reg[30] in module INSTRUCTION_DECODE is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_DECODE.v:62]
+WARNING: [Synth 8-5788] Register REG_reg[31] in module INSTRUCTION_DECODE is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_DECODE.v:62]
+INFO: [Synth 8-6155] done synthesizing module 'INSTRUCTION_DECODE' (2#1) [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_DECODE.v:2]
+INFO: [Synth 8-6157] synthesizing module 'EXECUTION' [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/EXECUTION.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'EXECUTION' (3#1) [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/EXECUTION.v:2]
+WARNING: [Synth 8-350] instance 'EXE' of module 'EXECUTION' requires 26 connections, but only 23 given [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/CPU.v:125]
+INFO: [Synth 8-6157] synthesizing module 'MEMORY' [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/MEMORY.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'MEMORY' (4#1) [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/MEMORY.v:2]
+INFO: [Synth 8-6157] synthesizing module 'top' [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/top.v:22]
+INFO: [Synth 8-226] default block is never used [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/top.v:86]
+INFO: [Synth 8-6155] done synthesizing module 'top' (5#1) [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/top.v:22]
+INFO: [Synth 8-6085] Hierarchical reference on 'REG' stops possible memory inference [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_DECODE.v:56]
+INFO: [Synth 8-6155] done synthesizing module 'CPU' (6#1) [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/CPU.v:2]
+WARNING: [Synth 8-3331] design top has unconnected port result1[31]
+WARNING: [Synth 8-3331] design top has unconnected port result1[30]
+WARNING: [Synth 8-3331] design top has unconnected port result1[29]
+WARNING: [Synth 8-3331] design top has unconnected port result1[28]
+WARNING: [Synth 8-3331] design top has unconnected port result1[27]
+WARNING: [Synth 8-3331] design top has unconnected port result1[26]
+WARNING: [Synth 8-3331] design top has unconnected port result1[25]
+WARNING: [Synth 8-3331] design top has unconnected port result1[24]
+WARNING: [Synth 8-3331] design top has unconnected port result1[23]
+WARNING: [Synth 8-3331] design top has unconnected port result1[22]
+WARNING: [Synth 8-3331] design top has unconnected port result1[21]
+WARNING: [Synth 8-3331] design top has unconnected port result1[20]
+WARNING: [Synth 8-3331] design top has unconnected port result1[19]
+WARNING: [Synth 8-3331] design top has unconnected port result1[18]
+WARNING: [Synth 8-3331] design top has unconnected port result1[17]
+WARNING: [Synth 8-3331] design top has unconnected port result1[16]
+WARNING: [Synth 8-3331] design top has unconnected port result1[15]
+WARNING: [Synth 8-3331] design top has unconnected port result1[14]
+WARNING: [Synth 8-3331] design top has unconnected port result1[13]
+WARNING: [Synth 8-3331] design top has unconnected port result2[31]
+WARNING: [Synth 8-3331] design top has unconnected port result2[30]
+WARNING: [Synth 8-3331] design top has unconnected port result2[29]
+WARNING: [Synth 8-3331] design top has unconnected port result2[28]
+WARNING: [Synth 8-3331] design top has unconnected port result2[27]
+WARNING: [Synth 8-3331] design top has unconnected port result2[26]
+WARNING: [Synth 8-3331] design top has unconnected port result2[25]
+WARNING: [Synth 8-3331] design top has unconnected port result2[24]
+WARNING: [Synth 8-3331] design top has unconnected port result2[23]
+WARNING: [Synth 8-3331] design top has unconnected port result2[22]
+WARNING: [Synth 8-3331] design top has unconnected port result2[21]
+WARNING: [Synth 8-3331] design top has unconnected port result2[20]
+WARNING: [Synth 8-3331] design top has unconnected port result2[19]
+WARNING: [Synth 8-3331] design top has unconnected port result2[18]
+WARNING: [Synth 8-3331] design top has unconnected port result2[17]
+WARNING: [Synth 8-3331] design top has unconnected port result2[16]
+WARNING: [Synth 8-3331] design top has unconnected port result2[15]
+WARNING: [Synth 8-3331] design top has unconnected port result2[14]
+WARNING: [Synth 8-3331] design top has unconnected port result2[13]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port JT[31]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port JT[30]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port JT[29]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port JT[28]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port JT[27]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port JT[26]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port JT[25]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port JT[24]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port JT[23]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port JT[22]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port JT[21]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port JT[20]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port JT[19]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port JT[18]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port JT[17]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port JT[16]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port JT[15]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port JT[14]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port JT[13]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port JT[12]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port JT[11]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port JT[10]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port JT[9]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port JT[8]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port JT[7]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port JT[6]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port JT[5]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port JT[4]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port JT[3]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port JT[2]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port JT[1]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port JT[0]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port DX_PC[31]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port DX_PC[30]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port DX_PC[29]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port DX_PC[28]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port DX_PC[27]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port DX_PC[26]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port DX_PC[25]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port DX_PC[24]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port DX_PC[23]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port DX_PC[22]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port DX_PC[21]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port DX_PC[20]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port DX_PC[19]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port DX_PC[18]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port DX_PC[17]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port DX_PC[16]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port DX_PC[15]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port DX_PC[14]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port DX_PC[13]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port DX_PC[12]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port DX_PC[11]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port DX_PC[10]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port DX_PC[9]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port DX_PC[8]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port DX_PC[7]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port DX_PC[6]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port DX_PC[5]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port DX_PC[4]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port DX_PC[3]
+WARNING: [Synth 8-3331] design EXECUTION has unconnected port DX_PC[2]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 469.922 ; gain = 156.676
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin TOP:result1[12] to constant 0 [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/CPU.v:175]
+WARNING: [Synth 8-3295] tying undriven pin TOP:result1[11] to constant 0 [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/CPU.v:175]
+WARNING: [Synth 8-3295] tying undriven pin TOP:result1[10] to constant 0 [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/CPU.v:175]
+WARNING: [Synth 8-3295] tying undriven pin TOP:result1[9] to constant 0 [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/CPU.v:175]
+WARNING: [Synth 8-3295] tying undriven pin TOP:result1[8] to constant 0 [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/CPU.v:175]
+WARNING: [Synth 8-3295] tying undriven pin TOP:result1[7] to constant 0 [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/CPU.v:175]
+WARNING: [Synth 8-3295] tying undriven pin TOP:result1[6] to constant 0 [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/CPU.v:175]
+WARNING: [Synth 8-3295] tying undriven pin TOP:result1[5] to constant 0 [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/CPU.v:175]
+WARNING: [Synth 8-3295] tying undriven pin TOP:result1[4] to constant 0 [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/CPU.v:175]
+WARNING: [Synth 8-3295] tying undriven pin TOP:result1[3] to constant 0 [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/CPU.v:175]
+WARNING: [Synth 8-3295] tying undriven pin TOP:result1[2] to constant 0 [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/CPU.v:175]
+WARNING: [Synth 8-3295] tying undriven pin TOP:result1[1] to constant 0 [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/CPU.v:175]
+WARNING: [Synth 8-3295] tying undriven pin TOP:result1[0] to constant 0 [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/CPU.v:175]
+WARNING: [Synth 8-3295] tying undriven pin TOP:result2[12] to constant 0 [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/CPU.v:175]
+WARNING: [Synth 8-3295] tying undriven pin TOP:result2[11] to constant 0 [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/CPU.v:175]
+WARNING: [Synth 8-3295] tying undriven pin TOP:result2[10] to constant 0 [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/CPU.v:175]
+WARNING: [Synth 8-3295] tying undriven pin TOP:result2[9] to constant 0 [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/CPU.v:175]
+WARNING: [Synth 8-3295] tying undriven pin TOP:result2[8] to constant 0 [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/CPU.v:175]
+WARNING: [Synth 8-3295] tying undriven pin TOP:result2[7] to constant 0 [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/CPU.v:175]
+WARNING: [Synth 8-3295] tying undriven pin TOP:result2[6] to constant 0 [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/CPU.v:175]
+WARNING: [Synth 8-3295] tying undriven pin TOP:result2[5] to constant 0 [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/CPU.v:175]
+WARNING: [Synth 8-3295] tying undriven pin TOP:result2[4] to constant 0 [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/CPU.v:175]
+WARNING: [Synth 8-3295] tying undriven pin TOP:result2[3] to constant 0 [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/CPU.v:175]
+WARNING: [Synth 8-3295] tying undriven pin TOP:result2[2] to constant 0 [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/CPU.v:175]
+WARNING: [Synth 8-3295] tying undriven pin TOP:result2[1] to constant 0 [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/CPU.v:175]
+WARNING: [Synth 8-3295] tying undriven pin TOP:result2[0] to constant 0 [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/CPU.v:175]
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 469.922 ; gain = 156.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 469.922 ; gain = 156.676
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/constrs_1/imports/lab4src_v2/Nexys4.xdc]
+Finished Parsing XDC File [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/constrs_1/imports/lab4src_v2/Nexys4.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/constrs_1/imports/lab4src_v2/Nexys4.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/CPU_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/CPU_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 844.289 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 844.289 ; gain = 531.043
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-3
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 844.289 ; gain = 531.043
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 844.289 ; gain = 531.043
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4471] merging register 'NPC_reg[31:0]' into 'DX_PC_reg[31:0]' [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_DECODE.v:90]
+INFO: [Synth 8-4471] merging register 'MemRead_reg' into 'MemtoReg_reg' [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_DECODE.v:111]
+WARNING: [Synth 8-6014] Unused sequential element NPC_reg was removed.  [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_DECODE.v:90]
+WARNING: [Synth 8-6014] Unused sequential element MemRead_reg was removed.  [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/INSTRUCTION_DECODE.v:111]
+INFO: [Synth 8-5546] ROM "jump0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "B" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MemtoReg" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ALUctr" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "RD" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/user/Desktop/lab4_v2/lab4_v2.srcs/sources_1/imports/lab4src_v2/EXECUTION.v:75]
+INFO: [Synth 8-5546] ROM "state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "seg_data" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 844.289 ; gain = 531.043
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 161   
+	               16 Bit    Registers := 1     
+	               13 Bit    Registers := 2     
+	                8 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                5 Bit    Registers := 3     
+	                3 Bit    Registers := 2     
+	                1 Bit    Registers := 12    
++---RAMs : 
+	               4K Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 74    
+	   7 Input     32 Bit        Muxes := 1     
+	   8 Input     32 Bit        Muxes := 1     
+	   2 Input     13 Bit        Muxes := 1     
+	   8 Input      8 Bit        Muxes := 1     
+	   7 Input      5 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   6 Input      3 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 8     
+	   6 Input      1 Bit        Muxes := 1     
+	   8 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+	  11 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module INSTRUCTION_FETCH 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 119   
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+Module INSTRUCTION_DECODE 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 37    
+	               16 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 72    
+	   7 Input     32 Bit        Muxes := 1     
+	   7 Input      5 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   6 Input      3 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 2     
+	   6 Input      1 Bit        Muxes := 1     
+Module EXECUTION 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 3     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   8 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+	   8 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+Module MEMORY 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---RAMs : 
+	               4K Bit         RAMs := 1     
+Module top 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               13 Bit    Registers := 2     
+	                8 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     13 Bit        Muxes := 1     
+	   8 Input      8 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+	  11 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5546] ROM "state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-3886] merging instance 'ID/JT_reg[0]' (FDC) to 'ID/JT_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ID/\JT_reg[1] )
+INFO: [Synth 8-3886] merging instance 'ID/imm_reg[8]' (FDC) to 'ID/JT_reg[10]'
+INFO: [Synth 8-3886] merging instance 'ID/imm_reg[0]' (FDC) to 'ID/JT_reg[2]'
+INFO: [Synth 8-3886] merging instance 'ID/imm_reg[1]' (FDC) to 'ID/JT_reg[3]'
+INFO: [Synth 8-3886] merging instance 'ID/imm_reg[2]' (FDC) to 'ID/JT_reg[4]'
+INFO: [Synth 8-3886] merging instance 'ID/imm_reg[3]' (FDC) to 'ID/JT_reg[5]'
+INFO: [Synth 8-3886] merging instance 'ID/imm_reg[4]' (FDC) to 'ID/JT_reg[6]'
+INFO: [Synth 8-3886] merging instance 'ID/imm_reg[5]' (FDC) to 'ID/JT_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ID/imm_reg[6]' (FDC) to 'ID/JT_reg[8]'
+INFO: [Synth 8-3886] merging instance 'ID/imm_reg[7]' (FDC) to 'ID/JT_reg[9]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[116][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[115][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[114][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[113][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[112][6] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (IF/\instruction_reg[111][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[110][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[109][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[108][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[107][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[106][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[105][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[104][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[103][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[102][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[101][6] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (IF/\instruction_reg[100][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[99][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[98][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[97][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[96][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[95][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[94][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[93][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[92][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[91][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[90][6] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (IF/\instruction_reg[89][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[88][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[87][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[86][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[85][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[84][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[83][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[82][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[81][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[80][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[79][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[78][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[77][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[76][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[75][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[74][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[73][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[72][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[71][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[70][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[69][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[68][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[67][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[66][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[65][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[64][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[63][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[62][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[61][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[60][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[59][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[58][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[57][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[56][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[55][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[54][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[53][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[52][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[51][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[50][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[49][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[48][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[47][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[46][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[45][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[44][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[43][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[42][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[41][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[40][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[39][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[38][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[37][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[36][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[35][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[34][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[33][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[32][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[31][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[30][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[29][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[28][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[27][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[26][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[25][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[24][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[23][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[22][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[21][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[20][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[19][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (IF/\instruction_reg[18][6] )
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3886] merging instance 'EXE/XM_MemRead_reg' (FDC) to 'EXE/XM_MemtoReg_reg'
+INFO: [Synth 8-3886] merging instance 'ID/JT_reg[1]' (FDC) to 'ID/JT_reg[10]'
+INFO: [Synth 8-3886] merging instance 'ID/JT_reg[10]' (FDC) to 'ID/JT_reg[9]'
+INFO: [Synth 8-3886] merging instance 'ID/JT_reg[11]' (FDC) to 'ID/JT_reg[9]'
+INFO: [Synth 8-3886] merging instance 'ID/JT_reg[12]' (FDC) to 'ID/JT_reg[9]'
+INFO: [Synth 8-3886] merging instance 'ID/JT_reg[17]' (FDC) to 'ID/JT_reg[9]'
+INFO: [Synth 8-3886] merging instance 'ID/JT_reg[21]' (FDC) to 'ID/JT_reg[9]'
+INFO: [Synth 8-3886] merging instance 'ID/JT_reg[22]' (FDC) to 'ID/JT_reg[9]'
+INFO: [Synth 8-3886] merging instance 'ID/JT_reg[27]' (FDC) to 'ID/JT_reg[9]'
+INFO: [Synth 8-3886] merging instance 'ID/imm_reg[15]' (FDC) to 'ID/JT_reg[9]'
+INFO: [Synth 8-3886] merging instance 'ID/imm_reg[10]' (FDC) to 'ID/JT_reg[9]'
+INFO: [Synth 8-3886] merging instance 'ID/imm_reg[9]' (FDC) to 'ID/JT_reg[9]'
+WARNING: [Synth 8-3332] Sequential element (PC_reg[31]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (PC_reg[30]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (PC_reg[29]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (PC_reg[28]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (PC_reg[27]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (PC_reg[26]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (PC_reg[25]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (PC_reg[24]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (PC_reg[23]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (PC_reg[22]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (PC_reg[21]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (PC_reg[20]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (PC_reg[19]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (PC_reg[18]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (PC_reg[17]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (PC_reg[16]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (PC_reg[15]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (PC_reg[14]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (PC_reg[13]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (PC_reg[12]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (PC_reg[11]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (PC_reg[0]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[116][31]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[116][30]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[116][29]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[116][28]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[116][27]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[116][26]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[116][25]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[116][24]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[116][23]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[116][22]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[116][21]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[116][20]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[116][19]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[116][18]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[116][17]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[116][16]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[116][15]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[116][14]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[116][13]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[116][12]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[116][11]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[116][10]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[116][9]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[116][8]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[116][7]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[116][6]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[116][5]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[116][4]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[116][3]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[116][2]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[116][1]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[116][0]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[115][31]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[115][30]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[115][29]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[115][28]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[115][27]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[115][26]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[115][25]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[115][24]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[115][23]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[115][22]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[115][21]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[115][20]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[115][19]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[115][18]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[115][17]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[115][16]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[115][15]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[115][14]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[115][13]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[115][12]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[115][11]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[115][10]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[115][9]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[115][8]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[115][7]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[115][6]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[115][5]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[115][4]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[115][3]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[115][2]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[115][1]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[115][0]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[114][31]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[114][30]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[114][29]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[114][28]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[114][27]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[114][26]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[114][25]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[114][24]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[114][23]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[114][22]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[114][21]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[114][20]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[114][19]) is unused and will be removed from module INSTRUCTION_FETCH.
+WARNING: [Synth 8-3332] Sequential element (instruction_reg[114][18]) is unused and will be removed from module INSTRUCTION_FETCH.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:31 ; elapsed = 00:00:35 . Memory (MB): peak = 844.289 ; gain = 531.043
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:40 ; elapsed = 00:00:46 . Memory (MB): peak = 844.289 ; gain = 531.043
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:41 ; elapsed = 00:00:46 . Memory (MB): peak = 844.289 ; gain = 531.043
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:42 ; elapsed = 00:00:48 . Memory (MB): peak = 886.480 ; gain = 573.234
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:43 ; elapsed = 00:00:49 . Memory (MB): peak = 886.480 ; gain = 573.234
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:44 ; elapsed = 00:00:49 . Memory (MB): peak = 886.480 ; gain = 573.234
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:44 ; elapsed = 00:00:49 . Memory (MB): peak = 886.480 ; gain = 573.234
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:44 ; elapsed = 00:00:49 . Memory (MB): peak = 886.480 ; gain = 573.234
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:44 ; elapsed = 00:00:49 . Memory (MB): peak = 886.480 ; gain = 573.234
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:44 ; elapsed = 00:00:49 . Memory (MB): peak = 886.480 ; gain = 573.234
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    59|
+|3     |LUT1   |     4|
+|4     |LUT2   |  1134|
+|5     |LUT3   |   683|
+|6     |LUT4   |   117|
+|7     |LUT5   |    43|
+|8     |LUT6   |   897|
+|9     |MUXF7  |    68|
+|10    |MUXF8  |    32|
+|11    |FDCE   |  1237|
+|12    |FDPE   |   531|
+|13    |FDRE   |    59|
+|14    |FDSE   |     6|
+|15    |LDC    |   525|
+|16    |IBUF   |    15|
+|17    |OBUF   |    15|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+-------------------+------+
+|      |Instance |Module             |Cells |
++------+---------+-------------------+------+
+|1     |top      |                   |  5426|
+|2     |  EXE    |EXECUTION          |    80|
+|3     |  ID     |INSTRUCTION_DECODE |  4188|
+|4     |  IF     |INSTRUCTION_FETCH  |   108|
+|5     |  MEM    |MEMORY             |   563|
+|6     |  TOP    |top                |   456|
++------+---------+-------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:44 ; elapsed = 00:00:49 . Memory (MB): peak = 886.480 ; gain = 573.234
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 3954 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:32 ; elapsed = 00:00:40 . Memory (MB): peak = 886.480 ; gain = 198.867
+Synthesis Optimization Complete : Time (s): cpu = 00:00:44 ; elapsed = 00:00:50 . Memory (MB): peak = 886.480 ; gain = 573.234
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 699 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 525 instances were transformed.
+  LDC => LDCE: 525 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+164 Infos, 346 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:47 ; elapsed = 00:00:53 . Memory (MB): peak = 886.480 ; gain = 586.246
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/user/Desktop/lab4_v2/lab4_v2.runs/synth_1/CPU.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file CPU_utilization_synth.rpt -pb CPU_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.089 . Memory (MB): peak = 886.480 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Dec 12 12:55:05 2018...
